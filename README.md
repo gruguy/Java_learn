@@ -1,4 +1,4 @@
-# JavaSE_learn
+# Java_learn
 
 #### 介绍
 **使用docsify制作自己学习Java的记录**
