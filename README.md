@@ -5,34 +5,27 @@
 本项目是基于docsify的文档生成器，记录自己学习Java的心路历程，最后形成文档，便于自己温故知新，巩固知识
 
 #### 软件架构
-软件架构说明
+使用docsify.js框架生成文档结构，通过配置导航与navbar，做好页面切换与语言国际化支持
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  全局安装docsify-cli
+```javascript
+  npm i docsify-cli -g
+```
+按照一般写法，将文档写在./docs目录下
+```javascript
+  docsify init ./docs
+```
+
+
+2. 编写内容，init完成后，文档结构目录在./docs下，具体如下：
+* index.html 文件入口
+* README.md 首页
+* .nojekyll 禁止Github Pages 忽略以下划线（_）开始命名的文件
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+启动项目，使用 docsify serve 命令，即可启动 http://localhost:3000,本地查看项目
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
