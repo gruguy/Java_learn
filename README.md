@@ -2,7 +2,7 @@
 
 #### 介绍
 **使用docsify制作自己学习Java的记录**
-本项目是基于docsify的文档生成器，记录自己学习Java的心路历程，最后形成文档，便于自己温故知新，巩固知识
+本项目是基于docsify的文档生成器，记录自己学习React的心路历程，最后形成文档，便于自己温故知新，巩固知识
 
 #### 软件架构
 使用docsify.js框架生成文档结构，通过配置导航与navbar，做好页面切换与语言国际化支持
@@ -17,6 +17,15 @@
 按照一般写法，将文档写在./docs目录下
 ```javascript
   docsify init ./docs
+```
+
+如果直接克隆了本项目
+```javascript
+  git clone  https://gruguy.github.io/React_learn/
+```
+然后直接运行：
+```
+ docsify serve ./docs
 ```
 
 
